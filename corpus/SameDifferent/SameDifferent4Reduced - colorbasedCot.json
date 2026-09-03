@@ -1,0 +1,36 @@
+TRAINING EXAMPLES
+Training Example 1
+Input:
+"black, black, blue, black, black, yellow\n black, blue, black, black, black, yellow\n blue, black, black, black, black, yellow\n black, black, black, black, black, black\n magenta, black, black, red, red, red\n magenta, black, black, black, black, black"
+
+Output:
+"black, black, black, black, black, yellow\n black, black, black, black, black, yellow\n black, black, black, black, black, yellow\n black, black, black, black, black, black\n magenta, black, black, black, black, black\n magenta, black, black, black, black, black"
+
+Training Example 2
+Input:
+"black, black, green, black, black, black\n black, green, black, red, red, red\n green, black, black, black, black, black\n black, black, black, black, brown, black\n orange, orange, orange, black, brown, black\n black, black, black, black, brown, black"
+
+Output:
+"black, black, black, black, black, black\n black, black, black, red, red, red\n black, black, black, black, black, black\n black, black, black, black, black, black\n orange, orange, orange, black, black, black\n black, black, black, black, black, black"
+
+TEST EXAMPLES
+Test Example 1
+Input:
+"black, black, blue, black, black, black\n black, blue, black, black, black, black\n blue, black, black, black, black, gray\n black, black, black, black, gray, black\n black, orange, black, black, black, black\n black, orange, black, green, green, green"
+
+Output:
+"black, black, black, black, black, black, black, black, black, black\n black, black, black, black, blue, black, black, black, black, black\n black, black, black, blue, black, black, black, black, black, black\n black, black, blue, black, black, black, black, gray, black, black\n black, blue, black, black, black, black, gray, black, black, black\n blue, black, black, black, black, gray, black, black, black, black\n black, black, black, black, gray, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black"
+
+Test Example 2
+Input:
+"black, black, black, black, black, black\n black, red, black, black, black, black\n black, red, black, black, black, black\n black, black, black, black, orange, black\n black, black, black, black, orange, black\n black, black, black, black, orange, black"
+
+Output:
+"black, black, black, black, black, black, black, black, black, black\n black, black, red, black, black, black, black, black, black, black\n black, black, red, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, orange, black, black, black, black, black\n black, black, black, black, orange, black, black, black, black, black\n black, black, black, black, orange, black, black, black, black, black\n black, black, black, black, orange, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black"
+
+Test Example 3
+Input:
+"green, black, yellow, black, black, black\n green, black, yellow, black, magenta, magenta\n green, black, black, black, black, black\n green, black, black, black, black, magenta\n green, black, black, black, magenta, black\n green, black, black, magenta, black, black"
+
+Output:
+"green, black, black, black, yellow, black, black, black, black, black\n green, black, black, black, yellow, black, black, black, black, black\n green, black, black, black, yellow, black, black, black, black, black\n green, black, black, black, black, black, black, black, black, black\n green, black, black, black, black, black, black, black, black, black\n green, black, black, black, black, black, black, black, black, black\n green, black, black, black, black, black, black, black, black, black\n green, black, black, black, black, black, black, black, black, black\n green, black, black, black, black, black, black, black, black, black\n green, black, black, black, black, black, black, black, black, black"

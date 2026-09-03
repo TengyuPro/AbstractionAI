@@ -1,0 +1,29 @@
+TRAINING EXAMPLES
+Training Example 1
+Input:
+"black, magenta, magenta, black\n black, magenta, magenta, black\n black, yellow, yellow, black\n black, yellow, yellow, black\n black, green, green, black\n black, green, green, black\n black, red, red, black\n black, red, red, black"
+
+Output:
+"magenta, yellow, green, red"
+
+Training Example 2
+Input:
+"brown, brown, brown, brown\n brown, brown, brown, brown\n yellow, yellow, yellow, yellow\n yellow, yellow, yellow, yellow\n orange, orange, orange, orange\n orange, orange, orange, orange\n green, green, green, green\n green, green, green, green"
+
+Output:
+"brown, yellow, orange, green"
+
+TEST EXAMPLES
+Test Example 1
+Input:
+"black, cyan, cyan, black\n black, cyan, cyan, black\n black, orange, orange, black\n black, orange, orange, black\n black, green, green, black\n black, green, green, black\n black, blue, blue, black\n black, blue, blue, black\n black, gray, gray, black\n black, gray, gray, black"
+
+Output:
+"cyan, orange, green, blue, gray"
+
+Test Example 2
+Input:
+"black, orange, black\n orange, orange, orange\n black, orange, black\n black, blue, black\n blue, blue, blue\n black, blue, black\n black, magenta, black\n magenta, magenta, magenta\n black, magenta, black\n black, yellow, black\n yellow, yellow, yellow\n black, yellow, black"
+
+Output:
+"orange, blue, magenta, yellow"

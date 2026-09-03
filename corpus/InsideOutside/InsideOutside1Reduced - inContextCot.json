@@ -1,0 +1,43 @@
+TRAINING EXAMPLES
+Training Example 1
+Input:
+"red, red, red, red, red, black, black\n red, black, black, black, red, black, blue\n red, black, blue, black, red, black, black\n red, black, black, black, red, black, black\n red, red, red, red, red, black, black\n black, black, black, black, black, black, black\n blue, black, black, blue, black, black, black"
+
+Output:
+"black\n black\n black"
+
+Training Example 2
+Input:
+"black, orange, orange, orange, orange, black, black\n black, orange, magenta, black, orange, black, black\n black, orange, black, magenta, orange, black, black\n black, orange, magenta, black, orange, black, black\n black, orange, orange, orange, orange, black, black\n black, black, black, black, black, black, magenta\n black, magenta, black, black, black, black, black"
+
+Output:
+"black\n black"
+
+Training Example 3
+Input:
+"black, black, black, brown, black, black, black\n black, green, green, green, green, black, black\n brown, green, black, black, green, black, black\n black, green, brown, black, green, black, brown\n black, green, black, black, green, black, black\n black, green, green, green, green, black, black\n black, black, black, black, black, black, black"
+
+Output:
+"black\n black\n black"
+
+TEST EXAMPLES
+Test Example 1
+Input:
+"black, black, black, black, black, gray, black\n black, green, green, green, green, green, gray\n black, green, black, black, gray, green, black\n black, green, black, black, black, green, black\n black, green, black, gray, black, green, gray\n black, green, black, black, black, green, gray\n black, green, green, green, green, green, black"
+
+Output:
+"black\n black\n black\n black"
+
+Test Example 2
+Input:
+"blue, blue, blue, blue, black, black, green\n blue, green, black, blue, black, green, black\n blue, black, black, blue, black, black, black\n blue, blue, blue, blue, black, black, green\n black, black, black, black, blue, blue, blue\n green, black, black, black, blue, black, blue\n black, black, green, black, blue, blue, blue"
+
+Output:
+"black\n black\n black\n black\n black"
+
+Test Example 3
+Input:
+"black, black, black, black, black, gray\n black, yellow, yellow, yellow, yellow, black\n black, yellow, black, black, yellow, black\n black, yellow, gray, black, yellow, black\n black, yellow, yellow, yellow, yellow, black\n black, black, black, black, black, black"
+
+Output:
+"black"

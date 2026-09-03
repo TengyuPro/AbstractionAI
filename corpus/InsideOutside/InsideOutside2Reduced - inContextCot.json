@@ -1,0 +1,50 @@
+TRAINING EXAMPLES
+Training Example 1
+Input:
+"black, black, black, black, black, black\n red, black, black, red, black, yellow\n black, black, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black"
+
+Output:
+"black, black, black, black, black, black\n red, black, black, red, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black"
+
+Training Example 2
+Input:
+"black, red, black, black, black, black\n black, black, black, black, black, black\n black, yellow, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black\n black, red, black, black, black, black"
+
+Output:
+"black, black, black, black, black, black\n black, black, black, black, black, black\n black, yellow, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black"
+
+Training Example 3
+Input:
+"black, red, black, black, black, black\n black, black, black, black, black, black\n black, black, black, yellow, black, black\n black, black, black, black, black, black\n black, black, black, black, black, red\n black, black, black, black, black, black"
+
+Output:
+"black, black, black, black, black, black\n black, black, black, black, black, black\n black, black, black, yellow, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black"
+
+Training Example 4
+Input:
+"black, black, red, black, black, red\n black, black, black, yellow, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black"
+
+Output:
+"black, black, red, black, black, red\n black, black, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black"
+
+TEST EXAMPLES
+Test Example 1
+Input:
+"black, black, yellow, black, black, black\n black, black, black, black, black, black\n black, black, red, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black\n black, black, red, black, black, black"
+
+Output:
+"black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, red, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, red, black, black, black, black, black, black, black"
+
+Test Example 2
+Input:
+"red, black, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, yellow, black\n black, black, black, black, black, red"
+
+Output:
+"black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, yellow, black\n black, black, black, black, black, black, black, black, black, black"
+
+Test Example 3
+Input:
+"black, black, black, black, black, black\n yellow, black, black, black, black, black\n red, black, black, black, black, red\n black, black, black, black, black, black\n black, black, black, black, black, black\n black, black, black, black, black, black"
+
+Output:
+"black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n red, black, black, black, black, black, black, black, black, red\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black\n black, black, black, black, black, black, black, black, black, black"
